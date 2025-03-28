@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sự Kiện - Quán Cà Phê Chill Chill</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            color: #4a3f35; /* Màu nâu cà phê ấm áp */
+            background-color: #f5f0e1; /* Màu nền nhẹ nhàng */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: url('event.jpg') center/cover;
+            color: white;
+            padding: 50px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .event-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5edd8;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .event {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #ece0cc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .media-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .event img, .event video {
+            width: 48%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 0;
+            backdrop-filter: blur(5px);
+        }
+        .nav a {
+            text-decoration: none;
+            background: rgba(139, 94, 59, 0.8);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .creator {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>Sự Kiện Tại Quán Cà Phê Brew Slow
+        <div class="creator">Tạo bởi: Bùi Trí Hào lớp 12a1.2</div>
+    </header>
+    <div class="event-container">
+        <div class="event">
+            <h2>Đêm Nhạc Acoustic</h2>
+            <div class="media-container">
+                <img src="istockphoto-1178258274-612x612.jpg" alt="Đêm nhạc Acoustic">
+                <video controls>
+                    <source src="sunghiepchuong.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+            <p>Thời gian: 19:00 - 22:00, Thứ 7 hàng tuần</p>
+            <p>Thưởng thức những bản nhạc acoustic nhẹ nhàng bên ly cà phê thơm lừng.</p>
+        </div>
+        <div class="event">
+            <img src="5-quan-ca-phe-sach-yen-tinh-view-dep-de-hoc-va-lam-viec-o-tphcm-202203110823079912.jpg" alt="Câu lạc bộ đọc sách">
+            <h2>Câu Lạc Bộ Đọc Sách</h2>
+            <p>Thời gian: 15:00 - 17:00, Chủ Nhật hàng tuần</p>
+            <p>Cùng nhau chia sẻ những cuốn sách hay và những câu chuyện ý nghĩa.</p>
+        </div>
+        <div class="event">
+            <img src="event.jpg" alt="Workshop Pha Chế Cà Phê">
+            <h2>Workshop Pha Chế Cà Phê</h2>
+            <p>Thời gian: 10:00 - 12:00, mỗi tháng một lần</p>
+            <p>Học cách pha chế những ly cà phê ngon tuyệt dưới sự hướng dẫn của barista chuyên nghiệp.</p>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="menu.html">Menu</a>
+    </div>
+</body>
+</html>
